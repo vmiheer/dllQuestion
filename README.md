@@ -5,7 +5,7 @@ Requirements:
 
 ```powershell
 vcpkg install pthreads
-vcpkg install pthreads
+vcpkg install boost-filesystem
 mkdir build
 cd build
 cmake -DCMAKE_TOOLCHAIN_FILE=C:\vcpkg\scripts\buildsystems\vcpkg.cmake ..
