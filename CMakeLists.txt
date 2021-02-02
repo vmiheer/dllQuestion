@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.18)
+project(dllQuestion)
+find_package(Boost REQUIRED COMPONENTS filesystem)
+find_package(pthreads)
+add_executable(tmp tmp.cpp)
+target_link_libraries(tmp PRIVATE PThreads4W::PThreads4W Boost::filesystem)
